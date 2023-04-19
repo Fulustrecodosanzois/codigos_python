@@ -18,3 +18,6 @@ print ("Olá {} sua idade é {}".format(nome,idade))
 # com F string
 
 print (f"Olá {nome} sua idade é {idade}")
+
+
+# Estou no clonado
