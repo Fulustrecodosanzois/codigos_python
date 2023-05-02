@@ -1,0 +1,22 @@
+1.	Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é F / 5 * 9 + 32, sendo F a temperatura em Fahrenheit que será informada pelo usuário.
+
+
+2.	Ler uma temperatura em graus Fahrenheit e apresentá-la convertida em graus Celsius. A fórmula de conversão é (C - 32) / 1.8, sendo C a temperatura em Celsius que será informada pelo usuário.
+
+
+3.	Calcular e apresentar o valor do volume de uma lata de óleo, utilizando a fórmula: VOLUME = 3.14159 * R2 * ALTURA.
+
+
+4.	Ler dois valores para as variáveis A e B e efetuar a troca dos valores de forma que a variável A passe a possuir o valor da variável B e a variável B passe a possuir o valor da variável A. Apresentar os valores após a efetivação do processamento de troca.
+
+
+5.	Calcular e apresentar o valor do volume de uma caixa retangular, utilizando a fórmula VOLUME = COMPRIMENTO * LARGURA * ALTURA.
+
+
+6.	Elaborar um programa que apresente o valor da conversão em real (R$) de um valor lido em dólar (US$). O algoritmo deve solicitar a cotação do dólar e também a quantidade de dólares disponível com o usuário.
+
+
+7.	Calcular e apresentar em metros por segundo, o valor da velocidade de um projétil, que percorre uma distância em Km a um espaço de tempo em minutos. Utilizar a fórmula VELOCIDADE = (DISTANCIA * 1000) / (TEMPO*60).
+
+
+8.	Construir um algoritmo em pseudocódigo que calcule o índice de massa corpórea (IMC) de uma pessoa. O IMC é calculado dividindo-se o peso da pessoa, em kg, pelo quadrado da sua altura, em metros.
