@@ -1,0 +1,26 @@
+1. Escrever um algoritmo para mostrar os números de 1 (inclusive) a 10 (inclusive) em ordem crescente e decrescente.
+
+
+2. Escrever um algoritmo que leia um conjunto de números inteiros e determine o maior deles. A leitura do valor 0 (zero) indica o final de dados (flag).
+
+
+3. Escrever um algoritmo para mostrar os números pares entre 1 e 200.
+
+
+4. Ler um valor N e mostrar todos os valores inteiros entre 1 (inclusive) e N (inclusive).Considerar que o N será sempre maior que ZERO.
+
+
+5. Escrever um algoritmo que pergunte ao usuário um valor de 1 a 9, se o número for par calcule e mostre a tabuada de multiplicar do número lido, se for ímpar calcular a tabuada de somar. Você deverá mostrar algo como:
+
+6x1=6
+6x2=12
+...
+6x10=60	
+
+.
+
+6. Faça um algoritmo que peça ao usuário 5 valores e mostre quantos desses valores lidos estão no intervalo [10,20] (incluindo os valores 10 e 20 no intervalo) e quantos deles estão fora
+
+
+
+7. Ler 4 valores, calcular e escrever a média desses valores lidos.

@@ -22,7 +22,7 @@ for contador in range (1, valor + 1):
     maior= item
     posicao = contador
     
-print("o valor maior é {maior} e está na posição {posicao}")
+print("o valor maior é {maior} e está na posição {posicao}") 
 
 
 
