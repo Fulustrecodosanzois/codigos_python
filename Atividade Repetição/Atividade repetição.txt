@@ -1,0 +1,64 @@
+•	Uma rainha requisitou os serviços de um monge e disse-lhe que pagaria qualquer preço. O monge, necessitando de alimentos, indagou à rainha sobre o pagamento, se poderia ser feito com grãos de trigo dispostos em um tabuleiro de xadrez (que possui 64 casas), de tal forma que o primeiro quadro deveria conter apenas um grão e os quadros subsequentes, o dobro do quadro anterior. Crie um algoritmo para calcular o total de grãos que o monge recebeu.
+
+
+
+•	Um hotel com 8 quartos cobra R$ 50,00 por diária e mais uma taxa de serviços. A taxa de serviços é de:
+• R$ 4,00 por diária, se o número de diárias for < 15;
+• R$ 3,60 por diária, se o número de diárias for = 15;
+• R$ 3,00 por diária, se o número de diárias for > 15. Faça um algoritmo que imprima o nome e o total da conta de cada cliente do hotel. Imprima também o total ganho pelo hotel.
+
+
+
+•	Escreva um algoritmo , que leia um conjunto de 6 fichas, cada uma contendo, a altura e o código do sexo de uma pessoa (código = 1 se for masculino e 2 se for feminino), e calcule e imprima: 
+- a maior e a menor altura da turma; 
+- a média de altura das mulheres;
+- a média de altura da turma.
+
+
+
+		
+•	Um cinema possui capacidade de 100 lugares e está sempre com ocupação total. Certo dia, cada espectador respondeu a um questionário, no qual constava: 
+- sua idade; 
+- sua opinião em relação ao filme, segundo as seguintes notas: 
+
+
+
+
+ Elabore um algoritmo que, lendo estes dados, calcule e imprima: 
+- a quantidade de respostas ótimo; 
+- a diferença percentual entre respostas bom e regular;
+ - a média de idade das pessoas que responderam ruim;
+ - a percentagem de respostas péssimo e a maior idade que utilizou esta opção;
+ - a diferença de idade entre a maior idade que respondeu ótimo e a maior idade que respondeu ruim.
+
+
+
+•	Construir um programa que apresente como resultado o fatorial dos valores ímpares
+situados na faixa numérica de 1 até 10. Exibir o resultado da seguinte forma:
+3 ! --> 1 X 2 X 3 = 6
+
+
+
+•	Some os números de 1 a 100 e mostre o valor.
+
+
+
+•	Construa um Algoritmo que peça do usuário 10 valores inteiros, determine: 
+a.	 A soma dos números positivos; 
+b.	 A quantidade de valores negativos;
+
+
+
+•	Faça um algoritmo que mostre todos os números pares compreendidos entre 85 e 907. O algoritmo deve também calcular a soma destes valores.
+
+
+
+•	Escrever um algoritmo que calcule e mostre a média dos números lidos entre 13 e 73.
+
+
+
+•	Escrever um algoritmo para ler 10 números e, ao final da leitura, escrever a soma total dos 10 números lidos.
+
+
+
+•	Escrever um algoritmo que verifique entre os números de 1000 a 1999 aqueles que divididos por 11, dão resto igual a 5. Imprimir o resultado.
