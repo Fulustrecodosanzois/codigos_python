@@ -1,12 +1,15 @@
-masc= ("1")
-fem= ("2")
 maior= 0
-media= 0
+media_turma= 0
+media_mulheres = 0
+soma_turma= 0
+soma_mulheres= 0
+cont_mulheres= 0
 
-for cont in range(1):
+
+for cont in range(1,4):
     altura= float(input("Qual sua altura? "))
     sexo= str(input("Qual seu sexo? "))
-    if altura > maior:
+    if altura >= maior:
         maior= altura
     if cont == 1:
         menor= altura
@@ -14,9 +17,16 @@ for cont in range(1):
         maior= altura
     elif altura <= menor:
         menor= altura
-    elif sexo == "2":
-        media= altura
-        print(altura)
+    elif sexo == 2:
+        soma_mulheres += altura
+        cont_mulheres += 1
         
-#print(F"A maior altura é {maior}")            
+    soma_turma+= altura
+
+
+print("-" * 20)        
+print(F"A maior altura é {maior}\n")            
+print(F"A menor altura é {menor}\n")   
+print(f"A média de alturas da turma é {soma_turma / 6}\n")
+print("-" * 20) 
         
