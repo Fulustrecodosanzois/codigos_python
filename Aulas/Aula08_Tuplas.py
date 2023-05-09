@@ -4,6 +4,7 @@
 # Ex de Tuplas:
 
 lanche = ("pizza", "hotdog", "refri", "batata")
+idades= tuple(18,25,63) # outra forma de criar tupla
 
 print(lanche)
 print("-"*50)
