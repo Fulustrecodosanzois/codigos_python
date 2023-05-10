@@ -1,0 +1,10 @@
+1.	Fazer um algoritmo que preencha um vetor com os valores de 1 a 10, calcule e mostre a quantidade de números ímpares e pares que estão presentes no vetor.
+
+
+2.	Fazer um algoritmo que preencha um vetor com 10 elementos inteiros e verifique a existência de elementos iguais a 10, mostrando as posições em que apareceram.
+
+
+3.	Fazer um algoritmo para ler 5 números e armazená-los em um vetor. Após a leitura total dos 5 números, o algoritmo deve escrever esses 5 números lidos na ordem inversa.
+
+
+4.	Faça um algoritmo que copie o conteúdo de um vetor em um segundo vetor.
