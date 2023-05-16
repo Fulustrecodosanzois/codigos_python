@@ -16,4 +16,3 @@ sorteio.sort(reverse=True)#a função sorte() ordena de forma crescente. o parâ
 sorteio.sort 
 print(sorteio, )
 os.system("pause") # irá pausar o sistema até o usuário pressionar uma tecla. 
-
