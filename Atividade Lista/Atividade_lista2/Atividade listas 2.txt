@@ -1,19 +1,15 @@
 ﻿1. Faça um programa que receba a temperatura média de cada mês do ano e armazene-as em uma lista. Após isto, calcule a média anual das temperaturas e mostre todas as temperaturas acima da média anual, e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro, . . . ).
 
+
 2. Dada uma lista de N valores inteiros, escreva um programa que remova todos os números pares da lista.
+
+
 
 3. Crie um programa em que você irá ler 10 números e guardá-los em um vetor. Em seguida, peça ao usuário para escolher duas posições do vetor. O programa deve imprimir no console o produto, a soma, a diferença, a divisão e a exponenciação dos dois números guardados nessas posições.
 
+
+
 4. Faça um programa que peça para o usuário alguns nomes de frutas e armazene em uma lista, exiba de forma formatada e alinhada, a posição e o nome da fruta. Após isso, faça um pequeno menu perguntando se o usuário deseja inserir ou excluir, o usuário só poderá inserir sempre no fim da lista e poderá ter a opção de excluir qualquer elemento da lista. Abaixo segue um exemplo:
-
-
-
-
-
-
-
-
-
 
 
 
