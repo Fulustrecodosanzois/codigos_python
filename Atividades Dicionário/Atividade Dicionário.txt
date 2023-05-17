@@ -1,0 +1,7 @@
+1.	Crie um dicionário que represente uma lista de compras de supermercado. O dicionário deve ter nomes de produtos como chaves e valores inteiros que representam a quantidade de cada produto a ser comprado. Você pode criar uma lista com 5 produtos
+
+2.	Crie um dicionário que represente um grupo de pessoas e seus respectivos telefones. As chaves devem ser os nomes das pessoas e os valores devem ser os seus números de telefone. Crie uma lista com 7 contatos e em seguida, imprima a lista contendo os dicionários
+
+3.	Crie um dicionário que represente uma tabela de preços de um restaurante. As chaves devem ser os nomes dos pratos e os valores devem ser os preços correspondentes. Você pode criar uma lista contendo 8 valores. Ao final mostre a lista
+
+4.	Crie um dicionário que represente uma playlist de músicas. As chaves devem ser os nomes das músicas e os valores devem ser as informações adicionais (como o nome do artista ou tempo de duração). Crie uma lista com 7 itens e ao final exiba o conteúdo da lista
