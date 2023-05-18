@@ -1,13 +1,14 @@
 EXERCICIOS DE FUNÇÃO
 
 1.	Desenvolver algoritmos dos problemas abaixo utilizando função com passagem de parâmetro:
+
+
 a)	Fazer uma função que receba a idade de um nadador por parâmetro e retorne, a categoria desse nadador, de acordo com a tabela abaixo:
 
 
 
 b)	Ler dois valores A e B. Se A for igual a B, devem ser lidos novos valores para A e B. Se A
-for menor que B, calcular e mostrar a soma dos números ímpares existentes entre A
-(inclusive) e B (inclusive). Se A for maior que B, calcular e mostrar a média dos múltiplos de 3 existentes entre A (inclusive) e B (inclusive). Considere que os valores são inteiros e positivos.
+for menor que B, calcular e mostrar a soma dos números ímpares existentes entre A (inclusive) e B (inclusive). 
 
 
 c)	Fazer uma função algoritmo que preencha um vetor com os valores de 1 a 10, calcule e retorne a quantidade de números pares que estão presentes no vetor.
