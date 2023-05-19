@@ -1,25 +1,25 @@
 EXERCICIOS DE FUNÇÃO
 
-1.	Desenvolver algoritmos dos problemas abaixo utilizando função com passagem de parâmetro:
+	Desenvolver algoritmos dos problemas abaixo utilizando função coml passagem de parâmetro:
 
 
-a)	Fazer uma função que receba a idade de um nadador por parâmetro e retorne, a categoria desse nadador, de acordo com a tabela abaixo:
+1-	Fazer uma função que receba a idade de um nadador por parâmetro e retorne, a categoria desse nadador, de acordo com a tabela abaixo:
 
 
 
-b)	Ler dois valores A e B. Se A for igual a B, devem ser lidos novos valores para A e B. Se A
+2-	Ler dois valores A e B. Se A for igual a B, devem ser lidos novos valores para A e B. Se A
 for menor que B, calcular e mostrar a soma dos números ímpares existentes entre A (inclusive) e B (inclusive). 
 
 
-c)	Fazer uma função algoritmo que preencha um vetor com os valores de 1 a 10, calcule e retorne a quantidade de números pares que estão presentes no vetor.
+3-	Fazer uma função algoritmo que preencha um vetor com os valores de 1 a 10, calcule e retorne a quantidade de números pares que estão presentes no vetor.
 
 
-d)	Ler um valor para uma variável N. Mostre a tabuada de N: Ex:1 x N = N 2 x N = 2N . . .
+4-	Ler um valor para uma variável N. Mostre a tabuada de N: Ex:1 x N = N 2 x N = 2N . . .
 
 
-e)	Fazer uma função que receba o esporte de um aluno por parâmetro e retorne, o ginásio desse aluno, de acordo com a tabela abaixo:
+5-	Fazer uma função que receba o esporte de um aluno por parâmetro e retorne, o ginásio desse aluno, de acordo com a tabela abaixo:
 
 
 
-h) Ler três valores (A, B e C) e apresentá-los em ordem crescente e decrescente.(pode utilizar a função sort do python)
+6- Ler três valores (A, B e C) e apresentá-los em ordem crescente e decrescente.(pode utilizar a função sort do python)
 
