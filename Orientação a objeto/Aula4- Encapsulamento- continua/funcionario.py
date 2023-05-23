@@ -1,5 +1,7 @@
+# emcapsulamento é a restinção de acesso
+
 class Funcionario:
-    def __init__(self, nome, cargo):
+    def __init__(self, nome, cargo): #inicializa as variavéis 
         self.__nome= nome 
         self.__cargo = cargo
         
@@ -9,10 +11,9 @@ class Funcionario:
     def set_nome(self, texto):
         self.__nome= texto
     
-
     # CRIANDO O GET DO CARGO
 
-    @property # Esse elemnto irá criar um get mais amigável ((usado somente para get)
+    @property # Esse elemnto irá criar um get mais amigável (usado somente para get)
     def cargo(self):
         return self.__cargo
     

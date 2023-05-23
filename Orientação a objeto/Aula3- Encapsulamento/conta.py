@@ -1,6 +1,6 @@
 class Conta:
     def __init__(self, numero, titular, saldo, limite=100):
-        self.__numero = numero # Tornamos um elemento privado com 2 underlines. com 1 underline ele esta protegido. Com nenhum ele é público
+        self.__numero = numero # emcapsulamento -> Tornamos um elemento privado com 2 underlines. com 1 underline ele esta protegido. Com nenhum ele é público
         self.__titular = titular 
         self.__saldo = saldo
         self.__limite= limite # Esse atributo possui um valor padão de maneira que o usuário poderá ou não informar este valor
@@ -23,3 +23,15 @@ class Conta:
         else: 
             self.__limite= valor
     
+    # MODIFICAR O ATIBUTO SALDO COM @PROPERTY E @SETTER 
+    
+    @property
+    def saldo(self):
+        print(f"Seu saldo é {self.__saldo}\n")
+        
+    @saldo.setter
+    def saldo(self, valor):
+        if valor <= 0:
+            print(f"Digite um número maior que zero\n")
+        else:
+            self.__saldo =valor

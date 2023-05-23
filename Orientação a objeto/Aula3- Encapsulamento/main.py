@@ -8,7 +8,12 @@ minha_conta = Conta(123, "Robervaldo Magalhães", 20000, 2500)
 
 #minha_conta.so_saldo()
 
+#minha_conta.set_limite(500)
 
-minha_conta.set_limite(500)
+#print(minha_conta.get_limite())
 
-print(minha_conta.get_limite())
+minha_conta.saldo
+
+minha_conta.saldo= 810
+
+minha_conta.saldo
