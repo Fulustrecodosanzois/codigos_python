@@ -1,0 +1,24 @@
+Você é um desenvolvedor de software encarregado de criar uma calculadora simples que execute operações básicas, como adição, subtração, multiplicação e divisão. O objetivo dessa atividade é praticar o conceito de encapsulamento em programação orientada a objetos.
+
+Crie uma classe chamada "Calculadora" que encapsule a lógica da calculadora. 
+
+A classe deve ter os seguintes atributos privados:
+
+•	num1, num2: irá armazenar os valores que serão usados para realizar os cálculos
+
+A classe deve ter os seguintes métodos públicos:
+
+•	__init__(self): inicializa a calculadora, configurando os atributos num1 e num2 com 0 (zero).
+
+•	somar(self, num1, num2): recebe dois números como entrada e exibe a soma resultante.
+
+•	subtrair(self, num1, num2): recebe dois números como entrada e exibe a subtração resultante.
+
+•	multiplicar(self, num1, num2): recebe dois números como entrada e exibe a multiplicação resultante.
+
+•	dividir(self, num1, num2): recebe dois números como entrada e exibe a divisão resultante. Caso queira, poderá fazer uma validação neste método de forma que a divisão só possa ser efetuada quando o 2º valor passado for diferente de 0(zero), pode ser exibido alguma mensagem para o usuário.
+
+
+Dica:
+
+Faça uma validação no método “dividir” de forma a comparar o 2º valor com zero e retornar uma mensagem para o usuário caso haja divisão por zero ou o resultado normal se tudo der certo
