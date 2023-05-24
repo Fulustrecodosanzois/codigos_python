@@ -1,9 +1,8 @@
 Sistema de Pedidos em um Restaurante
 
-Você é um desenvolvedor de software encarregado de criar a lógica básica de um sistema de pedidos em um restaurante. O objetivo dessa atividade é praticar o conceito de encapsulamento em programação orientada a objetos
-Crie uma classe chamada "Servico" que encapsule a lógica do sistema de pedidos.
+Você é um desenvolvedor de software encarregado de criar a lógica básica de um sistema de pedidos em um restaurante. O objetivo dessa atividade é praticar o conceito de encapsulamento em programação orientada a objetos.
 
-A classe deve ter o seguinte atributo privado:
+Crie uma classe chamada "Servico" que encapsule a lógica do sistema de pedidos. A classe deve ter o seguinte atributo privado:
 
 •	pedido : armazena o número de pedidos realizados.
 
@@ -20,4 +19,4 @@ A classe deve ter os seguintes métodos públicos:
 Dica:
 
 Utilize as operações de incremento e decremento (+= e -=) para atualizar o valor do atributo pedido.
-Certifique-se de tratar adequadamente o caso em que não há pedidos para cancelar, por exemplo, exibindo uma mensagem de aviso.
+Certifique-se de tratar adequadamente o caso em que 
