@@ -7,7 +7,7 @@ class Funcionario:
         print(f"Olá {self._nome} seu cargo é {self._cargo}\n")
         
 class Gerente(Funcionario):
-    def __init__(self, cargo, nome, salario): #se controi um contrutor pois foi necessário criar atributos especificos para a classe gerente
+    def __init__(self, cargo, nome, salario): #se constroi um contrutor pois foi necessário criar atributos especificos para a classe gerente
         super().__init__( cargo, nome) # repeti-se o init da classe mãe para que a filha tenha acesso, não precisando assim repetir os atributos
         self._salario= salario #Porém a novo atributo deve ser adicionado
     def exibir(self):
