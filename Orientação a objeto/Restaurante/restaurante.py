@@ -1,7 +1,6 @@
 class Servico:
     def __init__(self, pedido=0):
         self.__pedido= pedido
-        
     def novo_pedido(self):
         for perc in range(1,5):
             escolha= input("Qual seu pedido: ")
