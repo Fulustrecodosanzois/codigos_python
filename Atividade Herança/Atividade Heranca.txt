@@ -21,7 +21,7 @@ Implemente os seguintes métodos na classe “Personagem”:
 •	Implemente um método construtor na classe "Personagem" que receba somente o nome como parâmetro e inicialize a vida com um valor padrão, por exemplo vida = 5.
 
 
-Na classe “Jogador” Implemente um seguintes métodos:
+Na classe “Jogador” Implement e um seguintes métodos:
 
 •	método construtor que receba, além do que já existe na classe mãe, o tipo de raça, como por exemplo: Humano, Elfo, Vampiro, Zumbi, Goblin, Demônio, Anões, Guerreiro, etc.
 

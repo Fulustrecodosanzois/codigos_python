@@ -28,4 +28,4 @@ class Eletronico(Produto):
         self.__marca= marca
     
     def calcular_preco(self):
-        print("O eletrônico custa o valor de" ,self._preco*1.2, "da marca", self.__marca)
+        print(f"O eletrônico custa o valor de {self._preco*1.2}da marca", self.__marca)
