@@ -1,0 +1,42 @@
+Atividade POO - Herança
+
+Sistema de Controle de Veículos
+
+Você está desenvolvendo um sistema de controle de veículos para uma locadora e precisa implementar as classes relacionadas aos veículos. 
+Crie as classes “Veiculo” e “Carro” utilizando a herança e encapsulamento. 
+
+A classe “Veiculo” deve ser a classe base (superclasse) de todos os veículos. A classe “Carro”  deve ser uma classe que herde a classe “Veiculo”.
+
+
+Implemente os seguintes atributos na classe “Veiculo”:
+
+
+•	marca: uma string que representa a marca do veículo.
+•	ano: um número inteiro que representa o ano de fabricação do veículo.
+
+
+Implemente os seguintes métodos na classe “Veiculo”:
+
+
+•	Implemente o método construtor para inserir valores para os atributos marca e ano
+•	getMarca(): esse método deve retornar a marca do veículo.
+•	getAno(): esse método deve retornar o ano de fabricação do veículo.
+•	Você pode utilizar o @property e, caso queira o @setter, para poder acessar as informações do atributo
+
+
+Implemente os seguintes atributos na classe “Carro”:
+
+
+•	quantidadePortas: um número inteiro que representa a quantidade de portas do carro.
+•	capacidadePortaMalas: um número decimal que representa a capacidade do porta-malas do carro em litros.
+
+
+Implemente os seguintes métodos na classe “Carro”:
+
+
+•	getQuantidadePortas(): esse método deve retornar a quantidade de portas do carro.
+•	getCapacidadePortaMalas(): esse método deve retornar a capacidade do porta-malas do carro.
+•	Você pode utilizar o @property e, caso queira o @setter, para poder acessar as informações do atributo
+
+
+Crie objetos das classes “Veiculo” e “Carro” e teste os métodos para verificar se estão funcionando corretamente.
