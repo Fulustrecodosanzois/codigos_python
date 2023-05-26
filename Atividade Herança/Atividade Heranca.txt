@@ -1,0 +1,36 @@
+Atividade POO - Herança
+Jogo de RPG
+
+Você está desenvolvendo um jogo de RPG e precisa implementar as classes que representam os personagens do jogo. Utilize a herança para organizar as classes.
+
+Crie as classes “Personagem” e “Jogador” utilizando a herança. 
+
+A classe “Personagem” deve ser a classe base (superclasse) de todas as classes de personagens do jogo. A classe “Jogador” deve ser uma classe que herde a classe “Personagem”.
+
+Implemente os seguintes atributos na classe “Personagem”:
+
+•	nome: uma string que representa o nome do personagem.
+
+•	vida: um número inteiro que representa a quantidade de vida do personagem.
+
+
+Implemente os seguintes métodos na classe “Personagem”:
+
+•	atacar(self): esse método deve exibir uma mensagem indicando que o personagem está atacando.
+
+•	Implemente um método construtor na classe "Personagem" que receba somente o nome como parâmetro e inicialize a vida com um valor padrão, por exemplo vida = 5.
+
+
+Na classe “Jogador” Implemente um seguintes métodos:
+
+•	método construtor que receba, além do que já existe na classe mãe, o tipo de raça, como por exemplo: Humano, Elfo, Vampiro, Zumbi, Goblin, Demônio, Anões, Guerreiro, etc.
+
+•	usarHabilidade(self, poder): esse método deve exibir uma mensagem informando que será usado um poder que será passado para o método quando for chamado no objeto.
+
+o	Um exemplo deste método sendo usado seria: imagine que criamos o objeto “zumbi” então  o uso do método poderia ser:
+
+o	zumbi.usarHabilidade(“toque de decomposição”)
+o	A saída poderia ser algo como: “Habilidade ativada: Toque de decomposição”
+o	Fique à vontade para escolher qual informação será mostrada
+
+Crie objetos das classes "Personagem" e "Jogador" e chame os métodos para verificar se está funcionando corretamente.
