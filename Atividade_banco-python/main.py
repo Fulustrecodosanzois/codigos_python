@@ -5,7 +5,8 @@ loja= Produto()
 
 
 while True:
-    escolha=input(''' 
+    escolha=input('''
+                  
 ================================================
                   
 1 - Cadastrar novo produto

@@ -74,8 +74,7 @@ class Produto:
             print(consulta.rowcount, "linhas exluidas com sucesso!")
         
         conexao.close()
-        
-        
+         
     def atualizar_nome(self, nome, codigo):
         
         conexao= self.conexao()
@@ -96,7 +95,8 @@ class Produto:
         
         conexao.close()   
         
-     
+        
+        
     def atualizar_preco(self, preco, codigo):
         
         conexao= self.conexao()

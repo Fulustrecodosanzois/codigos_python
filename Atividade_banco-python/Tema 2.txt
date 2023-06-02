@@ -3,6 +3,7 @@ Projeto Final
 Gerenciamento de Loja de Produtos Eletrônicos
 
 Contexto:
+
 Você foi contratado para desenvolver um sistema de gerenciamento de uma loja de produtos eletrônicos. O sistema precisa ser capaz de cadastrar produtos e armazenar informações sobre os produtos.
 
 Desenvolva um programa em Python que utilize os conceitos de programação orientada a objetos e banco de dados para gerenciar uma loja de produtos eletrônicos.
