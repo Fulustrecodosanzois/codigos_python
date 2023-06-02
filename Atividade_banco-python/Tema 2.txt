@@ -1,0 +1,37 @@
+Projeto Final
+
+Gerenciamento de Loja de Produtos Eletrônicos
+
+Contexto:
+Você foi contratado para desenvolver um sistema de gerenciamento de uma loja de produtos eletrônicos. O sistema precisa ser capaz de cadastrar produtos e armazenar informações sobre os produtos.
+
+Desenvolva um programa em Python que utilize os conceitos de programação orientada a objetos e banco de dados para gerenciar uma loja de produtos eletrônicos.
+
+Orientações:
+
+- Crie um banco de dados chamado “loja_db” e em seguida crie uma tabela chamada “produto” com os campos: codigo, nome, preco e quantidade_disponível
+
+- Crie uma classe chamada “Produto” que represente um produto na loja. Cada produto deve ter os seguintes atributos: código, nome, preço e quantidade disponível. Essa classe será responsável por interagir com o banco de dados para realizar operações relacionadas aos produtos.
+
+- Implemente os seguintes métodos:
+
+•	“cadastrarProduto”: recebe como parâmetros o código, nome, preço e quantidade disponível de um produto e insere um novo produto no banco de dados.
+
+•	“consultarProdutos”: recupera todos os produtos cadastrados no banco de dados e imprime as informações de cada produto (nome, preço e quantidade disponível).
+
+•	“deletarProduto”: recebe como parâmetro o código do produto e caso o livro exista, deve ser mostrado uma mensagem de sucesso, caso contrário, deverá ser exibido uma mensagem de erro.
+
+•	“atualizarProduto”: recebe como parâmetro o código do produto e alguma (ou toda) informação que se deseja atualizar. Ficará a seu critério escolher quais dados deverão ser atualizados
+
+Certifique-se de criar o banco de dado e a tabela correspondente no banco de dados antes de executar o programa.
+
+Após implementar a classe e seus métodos, em outro arquivo, crie um algoritmo que mostre ao usuário um menu com informações para cadastrar, consultar, deletar, atualizar e sair. 
+Esse sistema deve implementar a criação de objeto para utilizar os métodos da classe de forma a deixar o sistema organizado. O algoritmo deverá ser executado até que o usuário escolha a opção “sair”
+
+Ao final deverá ser entregue:
+
+•	Um relatório descrevendo o que cada integrante fez;
+
+•	Um arquivo .sql com a criação do banco, tabelas e inserções;
+
+•	Arquivos em python com o código de implementação do projeto

@@ -16,4 +16,4 @@ class Jogador(Personagem):
         self.raca=raca
     def usar_habilidade(self, poder):
         self.poder=poder
-        print(f"{self.nome}, o {self.raca} usou o poder {self.poder}!!!")
+        print(f"{self.nome}, O {self.raca}, usou o poder {self.poder}!!!")

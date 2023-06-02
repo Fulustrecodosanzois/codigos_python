@@ -28,7 +28,7 @@ consulta= conexao.cursor()
 # Ele irá colocar na ordem os comandos, por isso deve ser colocado em ordem
 consulta.execute(comando, campos)
 
-conexao.commit() # após os comandos serem dados, o commit irá registrar os valores (como se fosse um ENTER)
+conexao.commit() # após os comandos serem dados, o commit irá registrar os valores (como se fosse um ENTER) O commit é uma operação usada para confirmar e finalizar uma transação. Quando você executa o comando commit, todas as alterações feitas no banco de dados durante a transação são permanentemente salvas e se tornam visíveis para outros usuários ou processos que acessam o banco de dados.
 
 #rowcount irá contar quantas linhas foram inseridas no código
 print(consulta.rowcount, "linhas(s) inserida com sucesso\n")

@@ -20,5 +20,6 @@ class Funcionario:
     @cargo.setter #irá criar um set para cargo mais amigável
     def cargo(self, info):
         self.__cargo = info
-    
+
+teste= Funcionario()
     
