@@ -16,6 +16,7 @@ while True:
 5 - Sair
 
 ================================================    
+
 Escolha uma opção: ''')
 
     if escolha == '1':
@@ -26,12 +27,14 @@ Escolha uma opção: ''')
         preco= float(input("Digite o preço do produto: "))
         quantidade= int(input("Digite a quantidadde do produto: "))
         loja.cadastrar(codigo, nome, preco, quantidade)
+        
 
         
     elif escolha == "2":
         #CONSULTAR VALORES
         os.system('cls')
         loja.consultar()
+        
         
     elif escolha == "3":
         #DELETAR VALORES
