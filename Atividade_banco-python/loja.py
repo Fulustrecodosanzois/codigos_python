@@ -44,14 +44,14 @@ class Produto:
         
         resultado= consulta.fetchall()
         
-        print(" TABELA PRDUTOS ===========================")
+        print(" TABELA PRODUTOS ===========================")
         
         cont=0
         for perc in resultado:
             cont+=1
             print(f"Código: {perc[0]}\t Nome: {perc[1]}\t Preço: {perc[2]}\t Quantidade: {perc[3]}\n")
          
-        print(" PRODUTOS CADASTRTADOS ==================\n") 
+        print("== PRODUTOS CADASTRTADOS ==================\n") 
         print(f"Há {cont} produtos cadastrados.\n")
         print("===========================================")
         
@@ -95,8 +95,6 @@ class Produto:
         
         conexao.close()   
         
-        
-        
     def atualizar_preco(self, preco, codigo):
         
         conexao= self.conexao()
@@ -135,5 +133,3 @@ class Produto:
         print(consulta.rowcount, "linha foi atualizada com sucesso")
         
         conexao.close()
-        
-        
