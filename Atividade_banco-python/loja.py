@@ -76,7 +76,7 @@ class Produto:
         conexao.close()
          
     def atualizar_nome(self, nome, codigo):
-        
+
         conexao= self.conexao()
         self.nome= nome
         self.codigo= codigo
@@ -93,7 +93,7 @@ class Produto:
         
         print(consulta.rowcount, "linha foi atualizada com sucesso!")
         
-        conexao.close()   
+        conexao.close()    
         
     def atualizar_preco(self, preco, codigo):
         
@@ -116,6 +116,7 @@ class Produto:
         conexao.close()
         
     def atualizar_quantidade(self, quantidade, codigo):
+        
         conexao= self.conexao()
         self.quantidade= quantidade
         self.codigo= codigo
@@ -133,3 +134,26 @@ class Produto:
         print(consulta.rowcount, "linha foi atualizada com sucesso")
         
         conexao.close()
+        
+        
+        conexao= self.conexao()
+        
+        comando= "select * from produto"
+        
+        consulta= conexao.cursor()
+        
+        consulta.execute(comando)
+        
+        resultado= consulta.fetchall()
+        
+        print(" TABELA PRODUTOS ===========================")
+        
+        cont=0
+        for perc in resultado:
+            cont+=1
+            print(f"Código: {perc[0]}\t Nome: {perc[1]}\t Preço: {perc[2]}\t Quantidade: {perc[3]}\n")
+         
+        print("== PRODUTOS CADASTRTADOS ==================\n") 
+        print(f"Há {cont} produtos cadastrados.\n")
+        print("===========================================")
+        

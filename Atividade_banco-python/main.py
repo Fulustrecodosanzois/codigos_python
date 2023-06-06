@@ -12,7 +12,7 @@ while True:
 1 - Cadastrar novo produto
 2 - Listar produtos cadastrados
 3 - Deletar produto
-4 - Editar produto
+4 - Atualizar produto
 5 - Sair
 
 ================================================    
@@ -22,10 +22,11 @@ Escolha uma opção: ''')
     if escolha == '1':
         #INSERIR VALORES:
         os.system('cls')
-        codigo= int(input("Digite o código do produto: "))
-        nome= (input("Digite o nome do produto: "))
-        preco= float(input("Digite o preço do produto: "))
-        quantidade= int(input("Digite a quantidadde do produto: "))
+        loja.consultar()
+        codigo= int(input("Digite o código do produto a ser cadastrado: "))
+        nome= (input("Digite o nome do produto a ser cadastrado: "))
+        preco= float(input("Digite o preço do produto a ser cadastrado: "))
+        quantidade= int(input("Digite a quantidade do produto a ser cadastrado: "))
         loja.cadastrar(codigo, nome, preco, quantidade)
         
 
@@ -39,30 +40,35 @@ Escolha uma opção: ''')
     elif escolha == "3":
         #DELETAR VALORES
         os.system('cls')
+        loja.consultar()
         codigo= int(input("Digite o código do produto a ser excluido: "))
         loja.deletar(codigo)
     
     elif escolha == "5":
-        print("\nVai tinbora mesmo, miseravi!!!\n")
+        print("\nVai tinbora mermo, miseravi!!!\n")
         break 
             
     elif escolha == "4":
         os.system('cls')
+        
+        loja.consultar()
+        
         escolha2= input('''
 ======================================   
                      
-1- Editar nome do produto.
-2- Editar preço do produto.
-3- Editar estoque do produto.
+1- Atualizar nome do produto.
+2- Atualizar preço do produto.
+3- Atualizar estoque do produto.
 
 ======================================
-Escolha uma opção: ''')
+Escolha uma opção:      ''')
     
     
         
         if escolha2 == "1":    
             #ATUALIZAR NOME:
             os.system('cls')
+            loja.consultar()
             nome= input("Digite o nome a ser atualiado: ")
             codigo=int(input("Digite o código do produto a ser atualizado: "))
             loja.atualizar_nome(nome, codigo)
@@ -70,6 +76,7 @@ Escolha uma opção: ''')
         if escolha2 == "2":
             # #ATUALIZAR PREÇO:
             os.system('cls')
+            loja.consultar()
             preco= float(input("Digite o preço a ser atualiado: "))
             codigo=int(input("Digite o código do produto a ser atualizado: "))
             loja.atualizar_preco(preco, codigo)
@@ -77,6 +84,7 @@ Escolha uma opção: ''')
         if escolha2 == "3":
             #ATUALIZAR QUANTIDADE
             os.system('cls')
+            loja.consultar()
             quantidade= input("Digite a quantidade a ser atualiada: ")
             codigo=int(input("Digite o código do produto a ser atualizado: "))
             loja.atualizar_quantidade(quantidade, codigo)
