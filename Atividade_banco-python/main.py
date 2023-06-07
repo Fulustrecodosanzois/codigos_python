@@ -69,24 +69,24 @@ Escolha uma opção:      ''')
             #ATUALIZAR NOME:
             os.system('cls')
             loja.consultar()
-            nome= input("Digite o nome a ser atualiado: ")
             codigo=int(input("Digite o código do produto a ser atualizado: "))
+            nome= input("Digite o nome a ser atualiado: ")
             loja.atualizar_nome(nome, codigo)
 
         if escolha2 == "2":
             # #ATUALIZAR PREÇO:
             os.system('cls')
             loja.consultar()
-            preco= float(input("Digite o preço a ser atualiado: "))
             codigo=int(input("Digite o código do produto a ser atualizado: "))
+            preco= float(input("Digite o preço a ser atualiado: "))
             loja.atualizar_preco(preco, codigo)
 
         if escolha2 == "3":
             #ATUALIZAR QUANTIDADE
             os.system('cls')
             loja.consultar()
-            quantidade= input("Digite a quantidade a ser atualiada: ")
             codigo=int(input("Digite o código do produto a ser atualizado: "))
+            quantidade= input("Digite a quantidade a ser atualiada: ")
             loja.atualizar_quantidade(quantidade, codigo)
 
     else:
